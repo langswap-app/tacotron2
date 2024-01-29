@@ -96,3 +96,10 @@ and the Mel vocoder were trained on the same mel-spectrogram representation.
 9. Setting n_frames_per_step=2 increases discrepancy between prenet features from previous gt_frame in teacher forcing mode and
 also speeds up training in ~2 times as absolute number of frames to predict also decreases. It usually speeds up training and helps
 with alignment, but might slightly harm quality of audio. But you can fine-tune with n_frames=1 after alignment converges.
+
+
+## Contact
+
+If you have any questions, you can raise them in issues or, alternatively, ask them in [our telegram chat](https://t.me/voice_stuff_chat).
+
+Follow us for new updates in [our telegram channel](https://t.me/voicestuff).
